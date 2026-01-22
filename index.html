@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsisPro Digital | Asistencia Administrativa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --azul-asis: #002D62;
+            --gris-asis: #70757A;
+        }
+        .bg-asis { background-color: var(--azul-asis); }
+        .text-asis { color: var(--azul-asis); }
+        .border-asis { border-color: var(--azul-asis); }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <img src="logo.png" alt="AsisPro Digital" class="h-12">
+            <a href="mailto:contacto@asisprodigital.com" class="text-sm font-medium text-asis px-4 underline">contacto@asisprodigital.com</a>
+            <a href="https://wa.me/tu-numero" class="bg-asis text-white px-6 py-2 rounded-full hover:opacity-90 transition">Contacto</a>
+        </div>
+    </nav>
+
+    <header class="py-20 bg-white border-b">
+        <div class="max-w-5xl mx-auto text-center px-4">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Optimiza tu negocio con <span class="text-asis">Asistencia Pro</span></h1>
+            <p class="text-xl text-gray-600 mb-8">Soporte operativo, expertos en Excel y gestión administrativa digital a tu medida.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#paquetes" class="bg-asis text-white px-8 py-3 rounded-lg font-bold text-lg">Ver Paquetes Mensuales</a>
+                <a href="#individuales" class="border-2 border-asis text-asis px-8 py-3 rounded-lg font-bold text-lg">Servicios Individuales</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="paquetes" class="py-20 max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 text-asis italic italic">PAQUETES DE SERVICIOS</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 flex flex-col">
+                <h3 class="text-xl font-bold mb-2">BÁSICO OPERATIVO</h3>
+                <p class="text-3xl font-black text-asis mb-6">$2,500 <span class="text-sm font-normal text-gray-500">MXN/mes</span></p>
+                <ul class="text-gray-600 space-y-3 mb-8 flex-grow">
+                    <li>✓ 20 horas mensuales</li>
+                    <li>✓ Captura de datos</li>
+                    <li>✓ Documentos Word</li>
+                    <li>✓ Soporte por WhatsApp</li>
+                </ul>
+                <p class="text-xs text-gray-400 mb-4 italic italic">Respuesta: 24h</p>
+                <button class="w-full py-3 border-2 border-asis text-asis font-bold rounded-lg hover:bg-blue-50">Seleccionar</button>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-2xl border-2 border-asis transform scale-105 relative flex flex-col">
+                <span class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-asis text-white px-4 py-1 rounded-full text-xs font-bold uppercase">Más vendido</span>
+                <h3 class="text-xl font-bold mb-2">ADMIN + EXCEL</h3>
+                <p class="text-3xl font-black text-asis mb-6">$4,500 <span class="text-sm font-normal text-gray-500">MXN/mes</span></p>
+                <ul class="text-gray-600 space-y-3 mb-8 flex-grow">
+                    <li>✓ 40 horas mensuales</li>
+                    <li>✓ <strong>Excel para Negocios</strong></li>
+                    <li>✓ Reportes e Ingresos</li>
+                    <li>✓ Optimización de procesos</li>
+                </ul>
+                <p class="text-xs text-gray-400 mb-4 italic italic">Respuesta: 12h</p>
+                <button class="w-full py-3 bg-asis text-white font-bold rounded-lg hover:opacity-90 shadow-lg">Seleccionar Plan</button>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 flex flex-col">
+                <h3 class="text-xl font-bold mb-2">SOPORTE PRO</h3>
+                <p class="text-3xl font-black text-asis mb-6">$7,500 <span class="text-sm font-normal text-gray-500">MXN/mes</span></p>
+                <ul class="text-gray-600 space-y-3 mb-8 flex-grow">
+                    <li>✓ 70 horas mensuales</li>
+                    <li>✓ Excel Avanzado</li>
+                    <li>✓ Reportes ejecutivos</li>
+                    <li>✓ Atención preferente</li>
+                </ul>
+                <p class="text-xs text-gray-400 mb-4 italic italic">Respuesta: 6h</p>
+                <button class="w-full py-3 border-2 border-asis text-asis font-bold rounded-lg hover:bg-blue-50">Seleccionar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="mb-4">¿Listo para empezar?</p>
+            <p class="text-2xl font-bold mb-6">contacto@asisprodigital.com</p>
+            <div class="text-sm text-gray-500">
+                © 2026 AsisPro Digital. Políticas: Pago por adelantado | Horas no acumulables.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
